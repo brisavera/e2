@@ -10,6 +10,12 @@ body {
   background-size: cover;
 }
 
+.header {
+  background-color: #ffe2ec;
+  display: flex;
+  justify-content: center;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
