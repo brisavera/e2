@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffe2ec;
+  border-radius: 3rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 200px;
+  font-family: "Poppins", sans-serif;
+}
+ul a {
+  color: #df0909;
+  text-decoration: none;
+  font-size: larger;
+  background-color: pink;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
